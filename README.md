@@ -63,7 +63,7 @@ La arquitectura objetivo documentada en el informe plantea una evolución hacia 
 ### Instalación
 
     git clone https://github.com/adryramir3z41-cmyk/servicebank-adriana.git
-    cd servicebank
+    cd servicebank-adriana
     npm install
     npm run dev
 
