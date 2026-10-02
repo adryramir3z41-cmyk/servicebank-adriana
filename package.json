@@ -1,1 +1,24 @@
-{"name":"servicebank-adriana","version":"1.0.0","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"next":"16.2.6","react":"19.2.6","react-dom":"19.2.6"},"devDependencies":{"@types/node":"22.19.19","@types/react":"19.2.14","@types/react-dom":"19.2.3","typescript":"5.9.3"}}
+{
+  "name": "servicebank-adriana",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test tests/navigation.test.mjs",
+    "benchmark": "node scripts/benchmark.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  },
+  "type": "module"
+}

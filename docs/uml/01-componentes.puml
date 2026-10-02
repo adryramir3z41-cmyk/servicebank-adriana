@@ -1,0 +1,39 @@
+@startuml
+title ServiceBank — Componentes de consulta y navegación
+caption Autora y única integrante: Adriana Ramirez Bernal
+skinparam componentStyle uml2
+skinparam shadowing false
+package "Prototipo en el navegador" {
+  component "Interfaz de solicitudes\nListado y detalle" as UI
+  component "Estado de navegación\nConsulta, filtros y página" as State
+  component "Servicio de consulta\nVisibilidad, búsqueda, filtros, orden y página" as Service
+  interface "CodeSearchStrategy" as Search
+  component "SequentialCodeSearch" as Sequential
+  component "IndexedCodeSearch\nÍndice en memoria" as Indexed
+  interface "TicketRepository" as Repo
+  component "LocalStorageTicketRepository" as Local
+  component "Módulo de evaluación\nEscenarios y mediciones" as Bench
+  database "localStorage\nDatos sintéticos" as Storage
+}
+UI --> State : conserva y recupera contexto
+UI --> Service : consulta y actualiza solicitudes
+Service --> Search : búsqueda exacta por código
+Sequential ..|> Search
+Indexed ..|> Search
+Service --> Repo : lectura y escritura
+Local ..|> Repo
+Local --> Storage
+Bench --> Service : verifica el recorrido completo
+Bench --> Search : compara estrategias
+Bench --> Repo : prepara datos de prueba
+note bottom of Service
+  Tras crear o modificar una solicitud:
+  persistir y después invalidar el índice.
+  El ensamblaje configura las dependencias.
+end note
+note bottom of Indexed
+  Reconstruir al iniciar y tras invalidación.
+  Búsqueda textual y filtros se procesan
+  fuera de este índice por código.
+end note
+@enduml

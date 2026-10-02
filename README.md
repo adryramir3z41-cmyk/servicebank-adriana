@@ -1,119 +1,53 @@
-# ServiceBank
+# ServiceBank — Actividad 6
 
-Prototipo académico de una mesa de servicio tecnológica para registrar, clasificar y gestionar solicitudes e incidentes en un contexto bancario ficticio.
+**Autora y única integrante: Adriana Ramirez Bernal.**
 
-> **Aviso académico:** ServiceBank no es un producto oficial de Banco Itaú. No utiliza información, usuarios, integraciones ni procesos internos reales de la entidad.
+Arquitectura de Software 20262, octavo semestre. Tecnológica del Oriente, Institución de Educación Superior. Docente: Ing. Jorge Luis Martinez Sanchez.
 
-## Información académica
+Versión de la Actividad 6 que evoluciona ServiceBank para evaluar la navegación de solicitudes. Incluye búsqueda exacta por código, búsqueda por asunto, cuatro filtros combinables, paginación de 20 registros, conservación del contexto al cerrar el detalle y comparación de búsqueda secuencial e indexada.
 
-- **Estudiante:** Adriana Ramírez Bernal
-- **Código:** ____________________
-- **Asignatura:** Arquitectura de Software
-- **Actividad:** Orquestando Códigos: La Sinfonía de los Sistemas
+## Ejecución
 
-## Prototipo publicado
+Se requiere Node.js 24 o posterior para ejecutar directamente las pruebas TypeScript. La aplicación conserva Next.js 16.2.6, React 19.2.6 y TypeScript 5.9.3 del proyecto original.
 
-[Abrir ServiceBank](https://servicebank-adriana.vercel.app)
+```text
+npm ci
+npm run dev
+```
 
-## Funcionalidades
+Abrir `http://localhost:3000`. También puede utilizarse `pnpm install` y `pnpm dev`.
 
-- Tablero con solicitudes activas, críticas y resueltas.
-- Registro, consulta y búsqueda de solicitudes.
-- Clasificación por categoría, impacto y urgencia.
-- Cálculo automático de prioridad.
-- Detalle, asignación, estados, comentarios e historial.
-- Simulación de perfiles: colaborador, agente, técnico y administrador.
+## Validación
 
-## Tecnologías
+```text
+npm test
+npm run benchmark
+npm run build -- --webpack
+npm start
+```
 
-- Next.js 16.
-- React 19.
-- TypeScript.
-- HTML y CSS.
-- Web Storage API (localStorage).
-- Vercel.
+Las pruebas cubren correctitud, filtros, paginación, visibilidad por perfil, actualización del índice, persistencia fallida, duplicados y migración de fechas. El benchmark de terminal conserva sus resultados en `docs/resultados/benchmark-node.*`; sus tiempos no equivalen a los del navegador.
 
-## Arquitectura
+En **Evaluación**, ejecutar la comparación para medir este navegador. Se generan conjuntos independientes de 100, 1.000 y 10.000 solicitudes sin reemplazar los datos de la mesa de servicio. Los botones JSON y CSV exportan estadísticas y muestras originales.
 
-El prototipo utiliza una arquitectura web modular basada en componentes. La interfaz y la lógica de demostración se ejecutan en el navegador.
+## Organización
 
-    Usuario
-      └── Interfaz Next.js/React
-            ├── Gestión de solicitudes
-            ├── Estrategia de prioridad
-            ├── Control demostrativo de perfiles
-            └── Persistencia local del navegador
+- `app/page.tsx`: interfaz, navegación y acciones sobre solicitudes.
+- `lib/navigation.ts`: repositorio, estrategias, servicio y estado de navegación.
+- `lib/benchmark.ts`: mediciones y exportación CSV.
+- `tests/navigation.test.mjs`: 20 pruebas automatizadas.
+- `docs/VALIDACION-ACTIVIDAD-6.md`: comprobaciones, resultados y limitaciones.
+- `docs/evidencias/`: capturas del prototipo local.
+- `docs/resultados/`: mediciones del navegador y de Node, identificadas por separado.
 
-La arquitectura objetivo documentada en el informe plantea una evolución hacia un monolito modular por capas, API REST, autenticación y base de datos relacional. Para la demostración publicada se utilizó almacenamiento local, evitando costos e integraciones con sistemas reales.
+## Datos y perfiles
 
-## Patrones aplicados
+Se conserva la clave `servicebank-tickets-v2`. Las fechas de creación anteriores se migran en memoria a ISO. Los datos dañados se informan y se conservan. Las escrituras se completan antes de actualizar la instantánea e invalidar el índice.
 
-- **Strategy:** la prioridad cambia según la combinación de impacto y urgencia.
-- **Repository:** el almacenamiento se mantiene separado conceptualmente de las operaciones del dominio y puede sustituirse por una API.
-- **Observer orientado a eventos:** cada cambio relevante genera un registro en el historial.
-- **Separación de responsabilidades:** presentación, reglas y persistencia son responsabilidades diferentes.
+Colaborador simula a Usuario Demo 01; Técnico simula a Técnico Demo A; Agente y Administrador consultan todas las solicitudes. Estas restricciones del navegador no constituyen autenticación o autorización de servidor. Solo se utilizan datos ficticios.
 
-## Ejecución local
+## Estado de entrega
 
-### Requisitos
+Código y comprobaciones preparados localmente el 2 de octubre de 2026. El código de esta versión se publica en este repositorio. La comprobación del despliegue actualizado en Vercel permanece pendiente. Las capturas se incluyen en el paquete de entrega. `docs/PRUEBAS.md` y `docs/README-ANTERIOR.md` son documentos históricos del proyecto anterior.
 
-- Node.js 22 o superior.
-- npm.
-
-### Instalación
-
-    git clone https://github.com/adryramir3z41-cmyk/servicebank-adriana.git
-    cd servicebank-adriana
-    npm install
-    npm run dev
-
-Abrir http://localhost:3000.
-
-### Compilación
-
-    npm run build
-    npm start
-
-## Perfiles demostrativos
-
-| Perfil | Crear | Consultar | Comentar | Cambiar estado | Asignar |
-|---|---:|---:|---:|---:|---:|
-| Colaborador | Sí | Sí | Sí | No | No |
-| Agente | Sí | Sí | Sí | Sí | Sí |
-| Técnico | Sí | Sí | Sí | Sí | No |
-| Administrador | Sí | Sí | Sí | Sí | Sí |
-
-## Pruebas realizadas
-
-Se validaron carga, creación, búsqueda, prioridad, asignación, estado, comentarios, historial, restricciones por perfil y persistencia. El detalle se encuentra en [docs/PRUEBAS.md](docs/PRUEBAS.md).
-
-## Estructura
-
-    servicebank/
-    ├── app/
-    │   ├── detail.css
-    │   ├── globals.css
-    │   ├── layout.tsx
-    │   └── page.tsx
-    ├── docs/
-    │   └── PRUEBAS.md
-    ├── package.json
-    ├── package-lock.json
-    ├── tsconfig.json
-    └── README.md
-
-## Limitaciones
-
-- Los perfiles son simulados y no corresponden a usuarios bancarios reales.
-- La información se guarda en el navegador de cada dispositivo.
-- Los registros no se comparten entre equipos.
-- No existen integraciones con sistemas bancarios, transacciones o datos de clientes.
-- El prototipo no debe utilizarse en producción.
-
-## Despliegue
-
-**https://servicebank-adriana.vercel.app**
-
-## Autoría
-
-Proyecto académico elaborado por **Adriana Ramírez Bernal** para la asignatura Arquitectura de Software.
+La evaluación mide crecimiento de registros en un navegador, no concurrencia ni infraestructura. El índice acelera búsquedas exactas repetidas y requiere preparación. La búsqueda textual continúa recorriendo registros. Carga inicial JSON, escrituras y renderizado no forman parte de los tiempos del servicio en memoria.

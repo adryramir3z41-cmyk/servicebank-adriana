@@ -1,0 +1,48 @@
+@startuml
+title ServiceBank — Consulta exacta y retorno desde el detalle
+caption Autora y única integrante: Adriana Ramirez Bernal
+skinparam shadowing false
+actor "Usuario de perfil simulado" as User
+boundary "Interfaz de solicitudes" as UI
+participant "NavigationState" as State
+control "TicketQueryService" as Service
+participant "TicketRepository" as Repo
+participant "CodeSearchStrategy" as Strategy
+User -> UI : introducir código y filtros
+UI -> UI : actualizar criterios y restablecer página 1
+UI -> Service : query(criterios, contexto)
+Service -> Repo : readAll()
+Repo --> Service : solicitudes
+opt Estrategia sin preparar o invalidada
+  Service -> Strategy : prepare(solicitudes)
+  Strategy --> Service : preparación completada
+end
+Service -> Strategy : find(código)
+Strategy --> Service : solicitud o vacío
+Service -> Service : verificar visibilidad del perfil
+Service -> Service : aplicar texto y filtros combinados
+Service -> Service : ordenar y calcular página válida
+Service --> UI : PagedResult
+alt Hay coincidencia visible que cumple los filtros
+  UI --> User : mostrar resultado
+  User -> UI : abrir detalle
+  UI -> State : save(criterios y página actual, contexto)
+  UI --> User : mostrar solicitud
+  User -> UI : regresar al listado
+  UI -> State : restore(contexto)
+  State --> UI : consulta, filtros y página
+  UI -> Service : query(criterios recuperados, contexto)
+  ref over Service, Strategy
+    Repetir consulta; preparar estrategia solo si fue invalidada
+  end ref
+  Service --> UI : resultados actualizados y página válida
+  UI --> User : mostrar listado con contexto recuperado
+else Sin coincidencias visibles
+  UI --> User : mostrar mensaje de ausencia de resultados
+end
+note over UI, Service
+  La búsqueda textual sin código exacto recorre los registros visibles.
+  El servicio comprueba visibilidad en cada consulta.
+  Los perfiles simulados no constituyen autorización de servidor.
+end note
+@enduml

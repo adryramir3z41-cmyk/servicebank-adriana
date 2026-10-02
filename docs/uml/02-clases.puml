@@ -1,0 +1,154 @@
+@startuml
+title ServiceBank — Modelo de clases implementado
+caption Autora y única integrante: Adriana Ramirez Bernal
+skinparam shadowing false
+hide empty members
+class Ticket <<datatype>> {
+  +id: Number
+  +code: String
+  +title: String
+  +status: String
+  +priority: String
+  +category: String
+  +assignee: String [0..1]
+  +requester: String
+  +createdAt: String ISO
+  +description: String
+  +events: TicketEvent[]
+  +comments: TicketComment[]
+}
+class UserContext <<datatype>> {
+  +userId: String
+  +role: String
+}
+class QueryCriteria <<datatype>> {
+  +exactCode: String [0..1]
+  +subjectText: String
+  +status: String [0..1]
+  +priority: String [0..1]
+  +category: String [0..1]
+  +technicianId: String [0..1]
+  +page: Integer
+  +pageSize: Integer = 20
+}
+class PagedResult <<datatype>> {
+  +items: Ticket[]
+  +total: Integer
+  +page: Integer
+  +pageCount: Integer
+}
+class NavigationState {
+  -criteria: QueryCriteria
+  -contextKey: String
+  +save(criteria, userContext): void
+  +restore(userContext): QueryCriteria
+  +reset(): void
+}
+class TicketQueryService {
+  -repository: TicketRepository
+  -strategy: CodeSearchStrategy
+  -preparedSnapshot: Ticket[] [0..1]
+  +query(criteria, userContext): PagedResult
+  +create(ticket): void
+  +update(previousCode, ticket): void
+  +replaceAll(tickets): void
+  -invalidate(): void
+}
+interface CodeSearchStrategy {
+  +name: String {readOnly}
+  +prepare(tickets): void
+  +find(code): Ticket [0..1]
+  +invalidate(): void
+}
+class SequentialCodeSearch {
+  -tickets: Ticket[]
+  +prepare(tickets): void
+  +find(code): Ticket [0..1]
+  +invalidate(): void
+}
+class IndexedCodeSearch {
+  -index: Map<String, Ticket>
+  +prepare(tickets): void
+  +find(code): Ticket [0..1]
+  +invalidate(): void
+}
+interface TicketRepository {
+  +readAll(): Ticket[]
+  +create(ticket): void
+  +update(previousCode, ticket): void
+  +replaceAll(tickets): void
+}
+class LocalStorageTicketRepository {
+  -storage: StoragePort
+  -key: String
+  -snapshot: Ticket[] {readOnly}
+  +readAll(): Ticket[]
+  +create(ticket): void
+  +update(previousCode, ticket): void
+  +replaceAll(tickets): void
+}
+interface StoragePort {
+  +getItem(key): String [0..1]
+  +setItem(key, value): void
+}
+class NavigationFunctions <<module>> {
+  +isVisible(ticket, context): Boolean
+  +normalizeCode(value): String
+  +normalizeText(value): String
+  +validateTickets(tickets): void
+}
+class BenchmarkRunner <<module>> {
+  +runBenchmark(environment, progress): BenchmarkReport
+  +reportCSV(report): String
+}
+class BenchmarkReport <<datatype>> {
+  +author: String
+  +environment: String
+  +executedAt: DateTime
+  +measurements: Measurement[]
+  +limitations: String[]
+}
+class Measurement <<datatype>> {
+  +datasetSize: Integer
+  +strategy: String
+  +scenario: String
+  +phase: String
+  +repetitions: Integer
+  +batchSize: Integer
+  +durationsMs: Number[]
+  +medianMs: Number
+  +p10Ms: Number
+  +p90Ms: Number
+}
+SequentialCodeSearch ..|> CodeSearchStrategy
+IndexedCodeSearch ..|> CodeSearchStrategy
+LocalStorageTicketRepository ..|> TicketRepository
+LocalStorageTicketRepository --> StoragePort
+TicketQueryService ..> NavigationFunctions : utiliza isVisible
+TicketQueryService --> "1" CodeSearchStrategy : estrategia configurada
+TicketQueryService --> "1" TicketRepository : repositorio
+TicketQueryService ..> QueryCriteria
+TicketQueryService ..> UserContext
+TicketQueryService ..> PagedResult
+NavigationState --> "1" QueryCriteria
+PagedResult --> "0..*" Ticket : resultados
+BenchmarkRunner --> CodeSearchStrategy
+BenchmarkRunner --> TicketRepository
+BenchmarkRunner --> TicketQueryService
+BenchmarkRunner ..> Measurement
+BenchmarkRunner ..> BenchmarkReport
+BenchmarkReport --> "1..*" Measurement
+note bottom of TicketQueryService
+  Un código exacto se busca y luego se verifica su visibilidad.
+  Sin código exacto se parte de los tickets visibles.
+  En ambos casos se aplican texto, filtros, orden y paginación.
+  Una escritura exitosa invalida la estrategia preparada.
+  Los filtros y el orden se implementan dentro de query.
+  isVisible es una función del módulo, no un método del servicio.
+end note
+note bottom of CodeSearchStrategy
+  prepare se ejecuta una vez por versión del conjunto de datos.
+  find devuelve vacío si el código no existe.
+  invalidate obliga a preparar antes de la próxima búsqueda.
+end note
+@enduml

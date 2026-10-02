@@ -1,0 +1,43 @@
+@startuml
+title ServiceBank — Recorrido de navegación
+caption Autora y única integrante: Adriana Ramirez Bernal
+skinparam shadowing false
+start
+:Ingresar al listado con perfil simulado;
+:Recuperar contexto del usuario actual\no iniciar criterios vacíos y página 1;
+repeat
+  :Leer las solicitudes del repositorio;
+  if (¿Existe un código exacto?) then (sí)
+    if (¿La estrategia necesita preparación?) then (sí)
+      :Preparar estrategia con el conjunto actual;
+    endif
+    :Buscar código mediante la estrategia configurada;
+    :Comprobar visibilidad de la coincidencia;
+  else (no)
+    :Seleccionar las solicitudes visibles del perfil;
+  endif
+  :Aplicar búsqueda por asunto y filtros con condición Y;
+  :Ordenar por fecha descendente y código ascendente;
+  :Calcular total y ajustar página al rango válido;
+  if (¿Hay coincidencias?) then (sí)
+    :Mostrar hasta 20 solicitudes de la página;
+  else (no)
+    :Mostrar cero resultados y mensaje explicativo;
+  endif
+  :Esperar acción del usuario;
+  if (¿Abrir detalle?) then (sí)
+    :Guardar consulta, filtros y página;
+    :Mostrar detalle de la solicitud seleccionada;
+    :Regresar al listado y recuperar el contexto;
+  else (no)
+    if (¿Cambiar criterios o limpiar?) then (sí)
+      :Actualizar criterios y restablecer página 1;
+    else (no)
+      if (¿Cambiar página?) then (sí)
+        :Guardar página solicitada;
+      endif
+    endif
+  endif
+repeat while (¿Continuar en el listado?) is (sí) not (no)
+stop
+@enduml

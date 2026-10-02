@@ -1,7 +1,5 @@
 node_modules/
 .next/
-.vercel/
-.env*
+.pnpm-store/
+*.tsbuildinfo
 *.log
-.DS_Store
-Thumbs.db

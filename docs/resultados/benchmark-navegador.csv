@@ -1,0 +1,841 @@
+﻿tamaño;estrategia;escenario;fase;repetición;lote;ms_por_operación
+100;Secuencial;Preparar;Preparación;1;1;0.09999999403953552
+100;Secuencial;Preparar;Preparación;2;1;0
+100;Secuencial;Preparar;Preparación;3;1;0
+100;Secuencial;Preparar;Preparación;4;1;0
+100;Secuencial;Preparar;Preparación;5;1;0
+100;Secuencial;Preparar;Preparación;6;1;0
+100;Secuencial;Preparar;Preparación;7;1;0
+100;Secuencial;Preparar;Preparación;8;1;0
+100;Secuencial;Preparar;Preparación;9;1;0
+100;Secuencial;Preparar;Preparación;10;1;0
+100;Secuencial;Preparar;Preparación;11;1;0
+100;Secuencial;Preparar;Preparación;12;1;0
+100;Secuencial;Preparar;Preparación;13;1;0
+100;Secuencial;Preparar;Preparación;14;1;0
+100;Secuencial;Preparar;Preparación;15;1;0
+100;Secuencial;Preparar;Preparación;16;1;0
+100;Secuencial;Preparar;Preparación;17;1;0
+100;Secuencial;Preparar;Preparación;18;1;0
+100;Secuencial;Preparar;Preparación;19;1;0
+100;Secuencial;Preparar;Preparación;20;1;0
+100;Indexada;Preparar;Preparación;1;1;0.20000000298023224
+100;Indexada;Preparar;Preparación;2;1;0
+100;Indexada;Preparar;Preparación;3;1;0
+100;Indexada;Preparar;Preparación;4;1;0
+100;Indexada;Preparar;Preparación;5;1;0
+100;Indexada;Preparar;Preparación;6;1;0
+100;Indexada;Preparar;Preparación;7;1;0
+100;Indexada;Preparar;Preparación;8;1;0
+100;Indexada;Preparar;Preparación;9;1;0
+100;Indexada;Preparar;Preparación;10;1;0
+100;Indexada;Preparar;Preparación;11;1;0
+100;Indexada;Preparar;Preparación;12;1;0
+100;Indexada;Preparar;Preparación;13;1;0
+100;Indexada;Preparar;Preparación;14;1;0
+100;Indexada;Preparar;Preparación;15;1;0
+100;Indexada;Preparar;Preparación;16;1;0.10000000894069672
+100;Indexada;Preparar;Preparación;17;1;0
+100;Indexada;Preparar;Preparación;18;1;0
+100;Indexada;Preparar;Preparación;19;1;0
+100;Indexada;Preparar;Preparación;20;1;0
+100;Secuencial;Inicio;Consulta preparada;1;1000;0.00010000000894069671
+100;Secuencial;Inicio;Consulta preparada;2;1000;0.00009999999403953553
+100;Secuencial;Inicio;Consulta preparada;3;1000;0
+100;Secuencial;Inicio;Consulta preparada;4;1000;0.00020000000298023223
+100;Secuencial;Inicio;Consulta preparada;5;1000;0.00009999999403953553
+100;Secuencial;Inicio;Consulta preparada;6;1000;0.00009999999403953553
+100;Secuencial;Inicio;Consulta preparada;7;1000;0.00010000000894069671
+100;Secuencial;Inicio;Consulta preparada;8;1000;0
+100;Secuencial;Inicio;Consulta preparada;9;1000;0
+100;Secuencial;Inicio;Consulta preparada;10;1000;0.00009999999403953553
+100;Secuencial;Inicio;Consulta preparada;11;1000;0.00010000000894069671
+100;Secuencial;Inicio;Consulta preparada;12;1000;0.00009999999403953553
+100;Secuencial;Inicio;Consulta preparada;13;1000;0
+100;Secuencial;Inicio;Consulta preparada;14;1000;0
+100;Secuencial;Inicio;Consulta preparada;15;1000;0
+100;Secuencial;Inicio;Consulta preparada;16;1000;0
+100;Secuencial;Inicio;Consulta preparada;17;1000;0
+100;Secuencial;Inicio;Consulta preparada;18;1000;0.00009999999403953553
+100;Secuencial;Inicio;Consulta preparada;19;1000;0
+100;Secuencial;Inicio;Consulta preparada;20;1000;0.00009999999403953553
+100;Indexada;Inicio;Consulta preparada;1;10000;0.00008999999910593033
+100;Indexada;Inicio;Consulta preparada;2;10000;0.00004000000059604645
+100;Indexada;Inicio;Consulta preparada;3;10000;0.00012000000029802322
+100;Indexada;Inicio;Consulta preparada;4;10000;0.00009000000059604645
+100;Indexada;Inicio;Consulta preparada;5;10000;0.000029999999701976778
+100;Indexada;Inicio;Consulta preparada;6;10000;0.000029999999701976778
+100;Indexada;Inicio;Consulta preparada;7;10000;0.000009999999403953553
+100;Indexada;Inicio;Consulta preparada;8;10000;0.000029999999701976778
+100;Indexada;Inicio;Consulta preparada;9;10000;0.000020000000298023225
+100;Indexada;Inicio;Consulta preparada;10;10000;0.000029999999701976778
+100;Indexada;Inicio;Consulta preparada;11;10000;0.000019999998807907106
+100;Indexada;Inicio;Consulta preparada;12;10000;0.000030000001192092897
+100;Indexada;Inicio;Consulta preparada;13;10000;0.000020000000298023225
+100;Indexada;Inicio;Consulta preparada;14;10000;0.000029999999701976778
+100;Indexada;Inicio;Consulta preparada;15;10000;0.000020000000298023225
+100;Indexada;Inicio;Consulta preparada;16;10000;0.000029999999701976778
+100;Indexada;Inicio;Consulta preparada;17;10000;0.000020000000298023225
+100;Indexada;Inicio;Consulta preparada;18;10000;0.000020000000298023225
+100;Indexada;Inicio;Consulta preparada;19;10000;0.000020000000298023225
+100;Indexada;Inicio;Consulta preparada;20;10000;0.000010000000894069672
+100;Secuencial;Mitad;Consulta preparada;1;1000;0.00040000000596046445
+100;Secuencial;Mitad;Consulta preparada;2;1000;0.00020000000298023223
+100;Secuencial;Mitad;Consulta preparada;3;1000;0.00029999999701976776
+100;Secuencial;Mitad;Consulta preparada;4;1000;0.00020000000298023223
+100;Secuencial;Mitad;Consulta preparada;5;1000;0.00029999999701976776
+100;Secuencial;Mitad;Consulta preparada;6;1000;0.00020000000298023223
+100;Secuencial;Mitad;Consulta preparada;7;1000;0.00020000000298023223
+100;Secuencial;Mitad;Consulta preparada;8;1000;0.00020000000298023223
+100;Secuencial;Mitad;Consulta preparada;9;1000;0.00009999999403953553
+100;Secuencial;Mitad;Consulta preparada;10;1000;0.00009999999403953553
+100;Secuencial;Mitad;Consulta preparada;11;1000;0.00020000000298023223
+100;Secuencial;Mitad;Consulta preparada;12;1000;0.00020000000298023223
+100;Secuencial;Mitad;Consulta preparada;13;1000;0.00009999999403953553
+100;Secuencial;Mitad;Consulta preparada;14;1000;0.00009999999403953553
+100;Secuencial;Mitad;Consulta preparada;15;1000;0.00020000000298023223
+100;Secuencial;Mitad;Consulta preparada;16;1000;0.00010000000894069671
+100;Secuencial;Mitad;Consulta preparada;17;1000;0.00020000000298023223
+100;Secuencial;Mitad;Consulta preparada;18;1000;0.00010000000894069671
+100;Secuencial;Mitad;Consulta preparada;19;1000;0.00019999998807907106
+100;Secuencial;Mitad;Consulta preparada;20;1000;0.00019999998807907106
+100;Indexada;Mitad;Consulta preparada;1;10000;0.000020000000298023225
+100;Indexada;Mitad;Consulta preparada;2;10000;0.000029999999701976778
+100;Indexada;Mitad;Consulta preparada;3;10000;0.000029999999701976778
+100;Indexada;Mitad;Consulta preparada;4;10000;0.000029999999701976778
+100;Indexada;Mitad;Consulta preparada;5;10000;0.000030000001192092897
+100;Indexada;Mitad;Consulta preparada;6;10000;0.000029999999701976778
+100;Indexada;Mitad;Consulta preparada;7;10000;0.000020000000298023225
+100;Indexada;Mitad;Consulta preparada;8;10000;0.000009999999403953553
+100;Indexada;Mitad;Consulta preparada;9;10000;0.000020000000298023225
+100;Indexada;Mitad;Consulta preparada;10;10000;0.000020000000298023225
+100;Indexada;Mitad;Consulta preparada;11;10000;0.000019999998807907106
+100;Indexada;Mitad;Consulta preparada;12;10000;0.000020000000298023225
+100;Indexada;Mitad;Consulta preparada;13;10000;0.000020000000298023225
+100;Indexada;Mitad;Consulta preparada;14;10000;0.000020000000298023225
+100;Indexada;Mitad;Consulta preparada;15;10000;0.000020000000298023225
+100;Indexada;Mitad;Consulta preparada;16;10000;0.00003999999910593033
+100;Indexada;Mitad;Consulta preparada;17;10000;0.000009999999403953553
+100;Indexada;Mitad;Consulta preparada;18;10000;0.000029999999701976778
+100;Indexada;Mitad;Consulta preparada;19;10000;0.000020000000298023225
+100;Indexada;Mitad;Consulta preparada;20;10000;0.000010000000894069672
+100;Secuencial;Final;Consulta preparada;1;1000;0.00030000001192092895
+100;Secuencial;Final;Consulta preparada;2;1000;0.00020000000298023223
+100;Secuencial;Final;Consulta preparada;3;1000;0.00029999999701976776
+100;Secuencial;Final;Consulta preparada;4;1000;0.00039999999105930326
+100;Secuencial;Final;Consulta preparada;5;1000;0.00030000001192092895
+100;Secuencial;Final;Consulta preparada;6;1000;0.00039999999105930326
+100;Secuencial;Final;Consulta preparada;7;1000;0.00030000001192092895
+100;Secuencial;Final;Consulta preparada;8;1000;0.00029999999701976776
+100;Secuencial;Final;Consulta preparada;9;1000;0.00030000001192092895
+100;Secuencial;Final;Consulta preparada;10;1000;0.00040000000596046445
+100;Secuencial;Final;Consulta preparada;11;1000;0.00040000000596046445
+100;Secuencial;Final;Consulta preparada;12;1000;0.00020000000298023223
+100;Secuencial;Final;Consulta preparada;13;1000;0.00040000000596046445
+100;Secuencial;Final;Consulta preparada;14;1000;0.00029999999701976776
+100;Secuencial;Final;Consulta preparada;15;1000;0.00030000001192092895
+100;Secuencial;Final;Consulta preparada;16;1000;0.00029999999701976776
+100;Secuencial;Final;Consulta preparada;17;1000;0.00030000001192092895
+100;Secuencial;Final;Consulta preparada;18;1000;0.00029999999701976776
+100;Secuencial;Final;Consulta preparada;19;1000;0.00030000001192092895
+100;Secuencial;Final;Consulta preparada;20;1000;0.00029999999701976776
+100;Indexada;Final;Consulta preparada;1;10000;0.000019999998807907106
+100;Indexada;Final;Consulta preparada;2;10000;0.000020000000298023225
+100;Indexada;Final;Consulta preparada;3;10000;0.000029999999701976778
+100;Indexada;Final;Consulta preparada;4;10000;0.000010000000894069672
+100;Indexada;Final;Consulta preparada;5;10000;0.000009999999403953553
+100;Indexada;Final;Consulta preparada;6;10000;0.000020000000298023225
+100;Indexada;Final;Consulta preparada;7;10000;0.000019999998807907106
+100;Indexada;Final;Consulta preparada;8;10000;0.000020000000298023225
+100;Indexada;Final;Consulta preparada;9;10000;0.000029999999701976778
+100;Indexada;Final;Consulta preparada;10;10000;0.000009999999403953553
+100;Indexada;Final;Consulta preparada;11;10000;0.000009999999403953553
+100;Indexada;Final;Consulta preparada;12;10000;0.000020000000298023225
+100;Indexada;Final;Consulta preparada;13;10000;0.000019999998807907106
+100;Indexada;Final;Consulta preparada;14;10000;0.000020000000298023225
+100;Indexada;Final;Consulta preparada;15;10000;0.000009999999403953553
+100;Indexada;Final;Consulta preparada;16;10000;0.000020000000298023225
+100;Indexada;Final;Consulta preparada;17;10000;0.000019999998807907106
+100;Indexada;Final;Consulta preparada;18;10000;0.000020000000298023225
+100;Indexada;Final;Consulta preparada;19;10000;0.000009999999403953553
+100;Indexada;Final;Consulta preparada;20;10000;0.000029999999701976778
+100;Secuencial;Inexistente;Consulta preparada;1;1000;0.00020000000298023223
+100;Secuencial;Inexistente;Consulta preparada;2;1000;0.00019999998807907106
+100;Secuencial;Inexistente;Consulta preparada;3;1000;0.00010000000894069671
+100;Secuencial;Inexistente;Consulta preparada;4;1000;0.00020000000298023223
+100;Secuencial;Inexistente;Consulta preparada;5;1000;0
+100;Secuencial;Inexistente;Consulta preparada;6;1000;0.00009999999403953553
+100;Secuencial;Inexistente;Consulta preparada;7;1000;0.00009999999403953553
+100;Secuencial;Inexistente;Consulta preparada;8;1000;0
+100;Secuencial;Inexistente;Consulta preparada;9;1000;0.00019999998807907106
+100;Secuencial;Inexistente;Consulta preparada;10;1000;0.00010000000894069671
+100;Secuencial;Inexistente;Consulta preparada;11;1000;0.00009999999403953553
+100;Secuencial;Inexistente;Consulta preparada;12;1000;0.00010000000894069671
+100;Secuencial;Inexistente;Consulta preparada;13;1000;0.00009999999403953553
+100;Secuencial;Inexistente;Consulta preparada;14;1000;0.00020000000298023223
+100;Secuencial;Inexistente;Consulta preparada;15;1000;0.00009999999403953553
+100;Secuencial;Inexistente;Consulta preparada;16;1000;0.00019999998807907106
+100;Secuencial;Inexistente;Consulta preparada;17;1000;0.00020000000298023223
+100;Secuencial;Inexistente;Consulta preparada;18;1000;0.00020000000298023223
+100;Secuencial;Inexistente;Consulta preparada;19;1000;0.00019999998807907106
+100;Secuencial;Inexistente;Consulta preparada;20;1000;0.00020000000298023223
+100;Indexada;Inexistente;Consulta preparada;1;10000;0.000020000000298023225
+100;Indexada;Inexistente;Consulta preparada;2;10000;0.000020000000298023225
+100;Indexada;Inexistente;Consulta preparada;3;10000;0.000020000000298023225
+100;Indexada;Inexistente;Consulta preparada;4;10000;0.000009999999403953553
+100;Indexada;Inexistente;Consulta preparada;5;10000;0.000009999999403953553
+100;Indexada;Inexistente;Consulta preparada;6;10000;0.000020000000298023225
+100;Indexada;Inexistente;Consulta preparada;7;10000;0.000010000000894069672
+100;Indexada;Inexistente;Consulta preparada;8;10000;0.000020000000298023225
+100;Indexada;Inexistente;Consulta preparada;9;10000;0.000010000000894069672
+100;Indexada;Inexistente;Consulta preparada;10;10000;0.000009999999403953553
+100;Indexada;Inexistente;Consulta preparada;11;10000;0.000020000000298023225
+100;Indexada;Inexistente;Consulta preparada;12;10000;0.000009999999403953553
+100;Indexada;Inexistente;Consulta preparada;13;10000;0.000020000000298023225
+100;Indexada;Inexistente;Consulta preparada;14;10000;0
+100;Indexada;Inexistente;Consulta preparada;15;10000;0.000010000000894069672
+100;Indexada;Inexistente;Consulta preparada;16;10000;0.000020000000298023225
+100;Indexada;Inexistente;Consulta preparada;17;10000;0.000020000000298023225
+100;Indexada;Inexistente;Consulta preparada;18;10000;0.000020000000298023225
+100;Indexada;Inexistente;Consulta preparada;19;10000;0.000020000000298023225
+100;Indexada;Inexistente;Consulta preparada;20;10000;0.000020000000298023225
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;1;1000;0.004400000005960464
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;2;1000;0.0026000000089406966
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;3;1000;0.002700000002980232
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;4;1000;0.0029000000059604646
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;5;1000;0.002700000002980232
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;6;1000;0.003700000002980232
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;7;1000;0.0029000000059604646
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;8;1000;0.0027999999970197676
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;9;1000;0.004299999997019768
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;10;1000;0.0025999999940395356
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;11;1000;0.0025
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;12;1000;0.0025999999940395356
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;13;1000;0.0025
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;14;1000;0.003300000011920929
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;15;1000;0.002700000002980232
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;16;1000;0.003
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;17;1000;0.0025
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;18;1000;0.0026000000089406966
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;19;1000;0.0035
+100;Secuencial;Código final y visibilidad;Servicio completo en memoria;20;1000;0.0026000000089406966
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;1;1000;0.001
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;2;1000;0.0007999999970197678
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;3;1000;0.0005999999940395355
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;4;1000;0.0010999999940395355
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;5;1000;0.0005999999940395355
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;6;1000;0.0005999999940395355
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;7;1000;0.0007000000029802323
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;8;1000;0.0005999999940395355
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;9;1000;0.0015999999940395355
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;10;1000;0.0006000000089406968
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;11;1000;0.0005999999940395355
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;12;1000;0.0005999999940395355
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;13;1000;0.0005999999940395355
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;14;1000;0.0005999999940395355
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;15;1000;0.0006000000089406968
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;16;1000;0.0008999999910593033
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;17;1000;0.0005999999940395355
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;18;1000;0.0005
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;19;1000;0.0006000000089406968
+100;Indexada;Código final y visibilidad;Servicio completo en memoria;20;1000;0.001
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;1;10;0.05
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;2;10;0.08999999910593033
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;3;10;0.04000000059604645
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;4;10;0.04000000059604645
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;5;10;0.029999999701976775
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;6;10;0.0800000011920929
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;7;10;0.03999999910593033
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;8;10;0.04000000059604645
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;9;10;0.10999999940395355
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;10;10;0.04000000059604645
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;11;10;0.03999999910593033
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;12;10;0.029999999701976775
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;13;10;0.05
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;14;10;0.04000000059604645
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;15;10;0.03999999910593033
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;16;10;0.06999999880790711
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;17;10;0.03999999910593033
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;18;10;0.029999999701976775
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;19;10;0.07999999970197677
+100;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;20;10;0.04000000059604645
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;1;10;0.07000000029802322
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;2;10;0.06000000089406967
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;3;10;0.05
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;4;10;0.04000000059604645
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;5;10;0.04000000059604645
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;6;10;0.029999999701976775
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;7;10;0.029999999701976775
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;8;10;0.04000000059604645
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;9;10;0.09000000059604644
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;10;10;0.029999999701976775
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;11;10;0.04000000059604645
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;12;10;0.10999999940395355
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;13;10;0.03999999910593033
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;14;10;0.03999999910593033
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;15;10;0.04000000059604645
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;16;10;0.07000000029802322
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;17;10;0.030000001192092896
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;18;10;0.05
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;19;10;0.05999999940395355
+100;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;20;10;0.05
+1000;Secuencial;Preparar;Preparación;1;1;0
+1000;Secuencial;Preparar;Preparación;2;1;0
+1000;Secuencial;Preparar;Preparación;3;1;0
+1000;Secuencial;Preparar;Preparación;4;1;0
+1000;Secuencial;Preparar;Preparación;5;1;0
+1000;Secuencial;Preparar;Preparación;6;1;0
+1000;Secuencial;Preparar;Preparación;7;1;0
+1000;Secuencial;Preparar;Preparación;8;1;0
+1000;Secuencial;Preparar;Preparación;9;1;0
+1000;Secuencial;Preparar;Preparación;10;1;0
+1000;Secuencial;Preparar;Preparación;11;1;0
+1000;Secuencial;Preparar;Preparación;12;1;0
+1000;Secuencial;Preparar;Preparación;13;1;0
+1000;Secuencial;Preparar;Preparación;14;1;0
+1000;Secuencial;Preparar;Preparación;15;1;0
+1000;Secuencial;Preparar;Preparación;16;1;0
+1000;Secuencial;Preparar;Preparación;17;1;0
+1000;Secuencial;Preparar;Preparación;18;1;0
+1000;Secuencial;Preparar;Preparación;19;1;0
+1000;Secuencial;Preparar;Preparación;20;1;0
+1000;Indexada;Preparar;Preparación;1;1;0.4000000059604645
+1000;Indexada;Preparar;Preparación;2;1;0
+1000;Indexada;Preparar;Preparación;3;1;0
+1000;Indexada;Preparar;Preparación;4;1;0.09999999403953552
+1000;Indexada;Preparar;Preparación;5;1;0.09999999403953552
+1000;Indexada;Preparar;Preparación;6;1;0.10000000894069672
+1000;Indexada;Preparar;Preparación;7;1;0
+1000;Indexada;Preparar;Preparación;8;1;0.09999999403953552
+1000;Indexada;Preparar;Preparación;9;1;0
+1000;Indexada;Preparar;Preparación;10;1;0.10000000894069672
+1000;Indexada;Preparar;Preparación;11;1;0
+1000;Indexada;Preparar;Preparación;12;1;0.09999999403953552
+1000;Indexada;Preparar;Preparación;13;1;0
+1000;Indexada;Preparar;Preparación;14;1;0
+1000;Indexada;Preparar;Preparación;15;1;0.09999999403953552
+1000;Indexada;Preparar;Preparación;16;1;0
+1000;Indexada;Preparar;Preparación;17;1;0
+1000;Indexada;Preparar;Preparación;18;1;0.10000000894069672
+1000;Indexada;Preparar;Preparación;19;1;0
+1000;Indexada;Preparar;Preparación;20;1;0
+1000;Secuencial;Inicio;Consulta preparada;1;1000;0
+1000;Secuencial;Inicio;Consulta preparada;2;1000;0.00009999999403953553
+1000;Secuencial;Inicio;Consulta preparada;3;1000;0
+1000;Secuencial;Inicio;Consulta preparada;4;1000;0.00010000000894069671
+1000;Secuencial;Inicio;Consulta preparada;5;1000;0
+1000;Secuencial;Inicio;Consulta preparada;6;1000;0
+1000;Secuencial;Inicio;Consulta preparada;7;1000;0.00009999999403953553
+1000;Secuencial;Inicio;Consulta preparada;8;1000;0
+1000;Secuencial;Inicio;Consulta preparada;9;1000;0
+1000;Secuencial;Inicio;Consulta preparada;10;1000;0
+1000;Secuencial;Inicio;Consulta preparada;11;1000;0
+1000;Secuencial;Inicio;Consulta preparada;12;1000;0
+1000;Secuencial;Inicio;Consulta preparada;13;1000;0
+1000;Secuencial;Inicio;Consulta preparada;14;1000;0.00009999999403953553
+1000;Secuencial;Inicio;Consulta preparada;15;1000;0
+1000;Secuencial;Inicio;Consulta preparada;16;1000;0.00009999999403953553
+1000;Secuencial;Inicio;Consulta preparada;17;1000;0.00010000000894069671
+1000;Secuencial;Inicio;Consulta preparada;18;1000;0.00010000000894069671
+1000;Secuencial;Inicio;Consulta preparada;19;1000;0
+1000;Secuencial;Inicio;Consulta preparada;20;1000;0
+1000;Indexada;Inicio;Consulta preparada;1;10000;0.000019999998807907106
+1000;Indexada;Inicio;Consulta preparada;2;10000;0.000030000001192092897
+1000;Indexada;Inicio;Consulta preparada;3;10000;0.00004000000059604645
+1000;Indexada;Inicio;Consulta preparada;4;10000;0.000019999998807907106
+1000;Indexada;Inicio;Consulta preparada;5;10000;0.00005
+1000;Indexada;Inicio;Consulta preparada;6;10000;0.000030000001192092897
+1000;Indexada;Inicio;Consulta preparada;7;10000;0.000029999999701976778
+1000;Indexada;Inicio;Consulta preparada;8;10000;0.00004000000059604645
+1000;Indexada;Inicio;Consulta preparada;9;10000;0.000059999999403953555
+1000;Indexada;Inicio;Consulta preparada;10;10000;0.00005
+1000;Indexada;Inicio;Consulta preparada;11;10000;0.000020000000298023225
+1000;Indexada;Inicio;Consulta preparada;12;10000;0.000019999998807907106
+1000;Indexada;Inicio;Consulta preparada;13;10000;0.000030000001192092897
+1000;Indexada;Inicio;Consulta preparada;14;10000;0.000009999999403953553
+1000;Indexada;Inicio;Consulta preparada;15;10000;0.000020000000298023225
+1000;Indexada;Inicio;Consulta preparada;16;10000;0.00004000000059604645
+1000;Indexada;Inicio;Consulta preparada;17;10000;0.00003999999910593033
+1000;Indexada;Inicio;Consulta preparada;18;10000;0.000020000000298023225
+1000;Indexada;Inicio;Consulta preparada;19;10000;0.000029999999701976778
+1000;Indexada;Inicio;Consulta preparada;20;10000;0.000029999999701976778
+1000;Secuencial;Mitad;Consulta preparada;1;1000;0.0026000000089406966
+1000;Secuencial;Mitad;Consulta preparada;2;1000;0.002700000002980232
+1000;Secuencial;Mitad;Consulta preparada;3;1000;0.0037999999970197676
+1000;Secuencial;Mitad;Consulta preparada;4;1000;0.002800000011920929
+1000;Secuencial;Mitad;Consulta preparada;5;1000;0.003199999988079071
+1000;Secuencial;Mitad;Consulta preparada;6;1000;0.004699999988079071
+1000;Secuencial;Mitad;Consulta preparada;7;1000;0.004
+1000;Secuencial;Mitad;Consulta preparada;8;1000;0.0027999999970197676
+1000;Secuencial;Mitad;Consulta preparada;9;1000;0.0027999999970197676
+1000;Secuencial;Mitad;Consulta preparada;10;1000;0.002699999988079071
+1000;Secuencial;Mitad;Consulta preparada;11;1000;0.002800000011920929
+1000;Secuencial;Mitad;Consulta preparada;12;1000;0.0037999999970197676
+1000;Secuencial;Mitad;Consulta preparada;13;1000;0.0027999999970197676
+1000;Secuencial;Mitad;Consulta preparada;14;1000;0.004299999997019768
+1000;Secuencial;Mitad;Consulta preparada;15;1000;0.002800000011920929
+1000;Secuencial;Mitad;Consulta preparada;16;1000;0.0029000000059604646
+1000;Secuencial;Mitad;Consulta preparada;17;1000;0.0039000000059604646
+1000;Secuencial;Mitad;Consulta preparada;18;1000;0.003899999991059303
+1000;Secuencial;Mitad;Consulta preparada;19;1000;0.002800000011920929
+1000;Secuencial;Mitad;Consulta preparada;20;1000;0.0031000000089406966
+1000;Indexada;Mitad;Consulta preparada;1;10000;0.000009999999403953553
+1000;Indexada;Mitad;Consulta preparada;2;10000;0.000020000000298023225
+1000;Indexada;Mitad;Consulta preparada;3;10000;0.000020000000298023225
+1000;Indexada;Mitad;Consulta preparada;4;10000;0.000019999998807907106
+1000;Indexada;Mitad;Consulta preparada;5;10000;0.000010000000894069672
+1000;Indexada;Mitad;Consulta preparada;6;10000;0.00004000000059604645
+1000;Indexada;Mitad;Consulta preparada;7;10000;0.000020000000298023225
+1000;Indexada;Mitad;Consulta preparada;8;10000;0.000010000000894069672
+1000;Indexada;Mitad;Consulta preparada;9;10000;0.000020000000298023225
+1000;Indexada;Mitad;Consulta preparada;10;10000;0.000020000000298023225
+1000;Indexada;Mitad;Consulta preparada;11;10000;0.000009999999403953553
+1000;Indexada;Mitad;Consulta preparada;12;10000;0.000020000000298023225
+1000;Indexada;Mitad;Consulta preparada;13;10000;0.000010000000894069672
+1000;Indexada;Mitad;Consulta preparada;14;10000;0.00003999999910593033
+1000;Indexada;Mitad;Consulta preparada;15;10000;0.00005
+1000;Indexada;Mitad;Consulta preparada;16;10000;0.000029999999701976778
+1000;Indexada;Mitad;Consulta preparada;17;10000;0.000029999999701976778
+1000;Indexada;Mitad;Consulta preparada;18;10000;0.000020000000298023225
+1000;Indexada;Mitad;Consulta preparada;19;10000;0.000019999998807907106
+1000;Indexada;Mitad;Consulta preparada;20;10000;0.000020000000298023225
+1000;Secuencial;Final;Consulta preparada;1;1000;0.005299999997019768
+1000;Secuencial;Final;Consulta preparada;2;1000;0.006399999991059303
+1000;Secuencial;Final;Consulta preparada;3;1000;0.007200000002980232
+1000;Secuencial;Final;Consulta preparada;4;1000;0.007299999997019768
+1000;Secuencial;Final;Consulta preparada;5;1000;0.005700000002980233
+1000;Secuencial;Final;Consulta preparada;6;1000;0.006099999994039536
+1000;Secuencial;Final;Consulta preparada;7;1000;0.005400000005960464
+1000;Secuencial;Final;Consulta preparada;8;1000;0.007700000002980233
+1000;Secuencial;Final;Consulta preparada;9;1000;0.006400000005960464
+1000;Secuencial;Final;Consulta preparada;10;1000;0.006100000008940697
+1000;Secuencial;Final;Consulta preparada;11;1000;0.007799999997019768
+1000;Secuencial;Final;Consulta preparada;12;1000;0.006400000005960464
+1000;Secuencial;Final;Consulta preparada;13;1000;0.006599999994039535
+1000;Secuencial;Final;Consulta preparada;14;1000;0.006600000008940697
+1000;Secuencial;Final;Consulta preparada;15;1000;0.0065
+1000;Secuencial;Final;Consulta preparada;16;1000;0.005600000008940697
+1000;Secuencial;Final;Consulta preparada;17;1000;0.006
+1000;Secuencial;Final;Consulta preparada;18;1000;0.006299999997019768
+1000;Secuencial;Final;Consulta preparada;19;1000;0.005299999997019768
+1000;Secuencial;Final;Consulta preparada;20;1000;0.0065
+1000;Indexada;Final;Consulta preparada;1;10000;0.000020000000298023225
+1000;Indexada;Final;Consulta preparada;2;10000;0.000020000000298023225
+1000;Indexada;Final;Consulta preparada;3;10000;0.000020000000298023225
+1000;Indexada;Final;Consulta preparada;4;10000;0.000009999999403953553
+1000;Indexada;Final;Consulta preparada;5;10000;0.000020000000298023225
+1000;Indexada;Final;Consulta preparada;6;10000;0.00005
+1000;Indexada;Final;Consulta preparada;7;10000;0.000009999999403953553
+1000;Indexada;Final;Consulta preparada;8;10000;0.000020000000298023225
+1000;Indexada;Final;Consulta preparada;9;10000;0.000029999999701976778
+1000;Indexada;Final;Consulta preparada;10;10000;0.000009999999403953553
+1000;Indexada;Final;Consulta preparada;11;10000;0.000020000000298023225
+1000;Indexada;Final;Consulta preparada;12;10000;0.000019999998807907106
+1000;Indexada;Final;Consulta preparada;13;10000;0.000020000000298023225
+1000;Indexada;Final;Consulta preparada;14;10000;0.000029999999701976778
+1000;Indexada;Final;Consulta preparada;15;10000;0.000020000000298023225
+1000;Indexada;Final;Consulta preparada;16;10000;0.000009999999403953553
+1000;Indexada;Final;Consulta preparada;17;10000;0.00003999999910593033
+1000;Indexada;Final;Consulta preparada;18;10000;0.00004000000059604645
+1000;Indexada;Final;Consulta preparada;19;10000;0.000020000000298023225
+1000;Indexada;Final;Consulta preparada;20;10000;0.000020000000298023225
+1000;Secuencial;Inexistente;Consulta preparada;1;1000;0.004099999994039536
+1000;Secuencial;Inexistente;Consulta preparada;2;1000;0.004299999997019768
+1000;Secuencial;Inexistente;Consulta preparada;3;1000;0.004200000002980232
+1000;Secuencial;Inexistente;Consulta preparada;4;1000;0.004
+1000;Secuencial;Inexistente;Consulta preparada;5;1000;0.005299999997019768
+1000;Secuencial;Inexistente;Consulta preparada;6;1000;0.004400000005960464
+1000;Secuencial;Inexistente;Consulta preparada;7;1000;0.004199999988079071
+1000;Secuencial;Inexistente;Consulta preparada;8;1000;0.004399999991059303
+1000;Secuencial;Inexistente;Consulta preparada;9;1000;0.0055
+1000;Secuencial;Inexistente;Consulta preparada;10;1000;0.004599999994039535
+1000;Secuencial;Inexistente;Consulta preparada;11;1000;0.004400000005960464
+1000;Secuencial;Inexistente;Consulta preparada;12;1000;0.004100000008940697
+1000;Secuencial;Inexistente;Consulta preparada;13;1000;0.006399999991059303
+1000;Secuencial;Inexistente;Consulta preparada;14;1000;0.006600000008940697
+1000;Secuencial;Inexistente;Consulta preparada;15;1000;0.0047000000029802326
+1000;Secuencial;Inexistente;Consulta preparada;16;1000;0.004200000002980232
+1000;Secuencial;Inexistente;Consulta preparada;17;1000;0.004299999997019768
+1000;Secuencial;Inexistente;Consulta preparada;18;1000;0.004200000002980232
+1000;Secuencial;Inexistente;Consulta preparada;19;1000;0.004099999994039536
+1000;Secuencial;Inexistente;Consulta preparada;20;1000;0.004099999994039536
+1000;Indexada;Inexistente;Consulta preparada;1;10000;0
+1000;Indexada;Inexistente;Consulta preparada;2;10000;0.000020000000298023225
+1000;Indexada;Inexistente;Consulta preparada;3;10000;0.000009999999403953553
+1000;Indexada;Inexistente;Consulta preparada;4;10000;0.000030000001192092897
+1000;Indexada;Inexistente;Consulta preparada;5;10000;0.000029999999701976778
+1000;Indexada;Inexistente;Consulta preparada;6;10000;0.00005
+1000;Indexada;Inexistente;Consulta preparada;7;10000;0.000010000000894069672
+1000;Indexada;Inexistente;Consulta preparada;8;10000;0.000020000000298023225
+1000;Indexada;Inexistente;Consulta preparada;9;10000;0.000010000000894069672
+1000;Indexada;Inexistente;Consulta preparada;10;10000;0.00005
+1000;Indexada;Inexistente;Consulta preparada;11;10000;0.000029999999701976778
+1000;Indexada;Inexistente;Consulta preparada;12;10000;0.000009999999403953553
+1000;Indexada;Inexistente;Consulta preparada;13;10000;0.000010000000894069672
+1000;Indexada;Inexistente;Consulta preparada;14;10000;0.000019999998807907106
+1000;Indexada;Inexistente;Consulta preparada;15;10000;0.000009999999403953553
+1000;Indexada;Inexistente;Consulta preparada;16;10000;0.00003999999910593033
+1000;Indexada;Inexistente;Consulta preparada;17;10000;0.000020000000298023225
+1000;Indexada;Inexistente;Consulta preparada;18;10000;0.000020000000298023225
+1000;Indexada;Inexistente;Consulta preparada;19;10000;0.000020000000298023225
+1000;Indexada;Inexistente;Consulta preparada;20;10000;0.000020000000298023225
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;1;1000;0.0225
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;2;1000;0.02179999999701977
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;3;1000;0.023299999997019767
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;4;1000;0.020400000005960463
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;5;1000;0.02620000000298023
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;6;1000;0.021099999994039536
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;7;1000;0.022600000008940697
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;8;1000;0.022299999997019766
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;9;1000;0.022600000008940697
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;10;1000;0.02179999999701977
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;11;1000;0.02119999998807907
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;12;1000;0.022100000008940697
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;13;1000;0.019700000002980233
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;14;1000;0.024400000005960463
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;15;1000;0.019700000002980233
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;16;1000;0.02079999999701977
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;17;1000;0.024900000005960463
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;18;1000;0.022099999994039537
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;19;1000;0.02079999999701977
+1000;Secuencial;Código final y visibilidad;Servicio completo en memoria;20;1000;0.021899999991059304
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;1;1000;0.0007000000029802323
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;2;1000;0.0005999999940395355
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;3;1000;0.0005999999940395355
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;4;1000;0.0005999999940395355
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;5;1000;0.0007000000029802323
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;6;1000;0.0005
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;7;1000;0.000699999988079071
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;8;1000;0.0006000000089406968
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;9;1000;0.0005999999940395355
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;10;1000;0.0005
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;11;1000;0.0006000000089406968
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;12;1000;0.0005999999940395355
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;13;1000;0.001
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;14;1000;0.0007999999970197678
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;15;1000;0.0005999999940395355
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;16;1000;0.0007000000029802323
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;17;1000;0.0005
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;18;1000;0.0006000000089406968
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;19;1000;0.0007999999970197678
+1000;Indexada;Código final y visibilidad;Servicio completo en memoria;20;1000;0.0009000000059604645
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;1;10;0.3700000002980232
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;2;10;0.34000000059604646
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;3;10;0.44000000059604644
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;4;10;0.31000000089406965
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;5;10;0.34000000059604646
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;6;10;0.3299999997019768
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;7;10;0.3200000002980232
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;8;10;0.35
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;9;10;0.3200000002980232
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;10;10;0.31000000089406965
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;11;10;0.3200000002980232
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;12;10;0.35
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;13;10;0.3299999997019768
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;14;10;0.3200000002980232
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;15;10;0.3300000011920929
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;16;10;0.34000000059604646
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;17;10;0.44000000059604644
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;18;10;0.47999999970197677
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;19;10;0.3200000002980232
+1000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;20;10;0.3300000011920929
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;1;10;0.3200000002980232
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;2;10;0.3299999997019768
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;3;10;0.3299999997019768
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;4;10;0.3299999997019768
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;5;10;0.3899999991059303
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;6;10;0.39000000059604645
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;7;10;0.3200000002980232
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;8;10;0.3200000002980232
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;9;10;0.3200000002980232
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;10;10;0.3399999991059303
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;11;10;0.4199999988079071
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;12;10;0.3299999997019768
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;13;10;0.31000000089406965
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;14;10;0.3200000002980232
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;15;10;0.4
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;16;10;0.3299999997019768
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;17;10;0.30999999940395356
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;18;10;0.30999999940395356
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;19;10;0.4299999997019768
+1000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;20;10;0.3299999997019768
+10000;Secuencial;Preparar;Preparación;1;1;0
+10000;Secuencial;Preparar;Preparación;2;1;0
+10000;Secuencial;Preparar;Preparación;3;1;0
+10000;Secuencial;Preparar;Preparación;4;1;0
+10000;Secuencial;Preparar;Preparación;5;1;0
+10000;Secuencial;Preparar;Preparación;6;1;0
+10000;Secuencial;Preparar;Preparación;7;1;0
+10000;Secuencial;Preparar;Preparación;8;1;0
+10000;Secuencial;Preparar;Preparación;9;1;0
+10000;Secuencial;Preparar;Preparación;10;1;0
+10000;Secuencial;Preparar;Preparación;11;1;0
+10000;Secuencial;Preparar;Preparación;12;1;0
+10000;Secuencial;Preparar;Preparación;13;1;0
+10000;Secuencial;Preparar;Preparación;14;1;0
+10000;Secuencial;Preparar;Preparación;15;1;0
+10000;Secuencial;Preparar;Preparación;16;1;0
+10000;Secuencial;Preparar;Preparación;17;1;0
+10000;Secuencial;Preparar;Preparación;18;1;0
+10000;Secuencial;Preparar;Preparación;19;1;0
+10000;Secuencial;Preparar;Preparación;20;1;0
+10000;Indexada;Preparar;Preparación;1;1;3.3999999910593033
+10000;Indexada;Preparar;Preparación;2;1;0.4000000059604645
+10000;Indexada;Preparar;Preparación;3;1;0.4000000059604645
+10000;Indexada;Preparar;Preparación;4;1;0.7000000029802322
+10000;Indexada;Preparar;Preparación;5;1;0.5
+10000;Indexada;Preparar;Preparación;6;1;0.3999999910593033
+10000;Indexada;Preparar;Preparación;7;1;0.5
+10000;Indexada;Preparar;Preparación;8;1;0.5
+10000;Indexada;Preparar;Preparación;9;1;0.5
+10000;Indexada;Preparar;Preparación;10;1;0.7000000029802322
+10000;Indexada;Preparar;Preparación;11;1;0.6000000089406967
+10000;Indexada;Preparar;Preparación;12;1;0.5
+10000;Indexada;Preparar;Preparación;13;1;1.199999988079071
+10000;Indexada;Preparar;Preparación;14;1;0.5
+10000;Indexada;Preparar;Preparación;15;1;0.4000000059604645
+10000;Indexada;Preparar;Preparación;16;1;0.4000000059604645
+10000;Indexada;Preparar;Preparación;17;1;0.3999999910593033
+10000;Indexada;Preparar;Preparación;18;1;0.5
+10000;Indexada;Preparar;Preparación;19;1;0.29999999701976776
+10000;Indexada;Preparar;Preparación;20;1;0.5
+10000;Secuencial;Inicio;Consulta preparada;1;1000;0
+10000;Secuencial;Inicio;Consulta preparada;2;1000;0
+10000;Secuencial;Inicio;Consulta preparada;3;1000;0
+10000;Secuencial;Inicio;Consulta preparada;4;1000;0
+10000;Secuencial;Inicio;Consulta preparada;5;1000;0
+10000;Secuencial;Inicio;Consulta preparada;6;1000;0.00009999999403953553
+10000;Secuencial;Inicio;Consulta preparada;7;1000;0
+10000;Secuencial;Inicio;Consulta preparada;8;1000;0.00009999999403953553
+10000;Secuencial;Inicio;Consulta preparada;9;1000;0
+10000;Secuencial;Inicio;Consulta preparada;10;1000;0
+10000;Secuencial;Inicio;Consulta preparada;11;1000;0
+10000;Secuencial;Inicio;Consulta preparada;12;1000;0.00010000000894069671
+10000;Secuencial;Inicio;Consulta preparada;13;1000;0
+10000;Secuencial;Inicio;Consulta preparada;14;1000;0.00020000000298023223
+10000;Secuencial;Inicio;Consulta preparada;15;1000;0
+10000;Secuencial;Inicio;Consulta preparada;16;1000;0
+10000;Secuencial;Inicio;Consulta preparada;17;1000;0.00009999999403953553
+10000;Secuencial;Inicio;Consulta preparada;18;1000;0
+10000;Secuencial;Inicio;Consulta preparada;19;1000;0
+10000;Secuencial;Inicio;Consulta preparada;20;1000;0
+10000;Indexada;Inicio;Consulta preparada;1;10000;0.000030000001192092897
+10000;Indexada;Inicio;Consulta preparada;2;10000;0.00005
+10000;Indexada;Inicio;Consulta preparada;3;10000;0.000029999999701976778
+10000;Indexada;Inicio;Consulta preparada;4;10000;0.000029999999701976778
+10000;Indexada;Inicio;Consulta preparada;5;10000;0.000029999999701976778
+10000;Indexada;Inicio;Consulta preparada;6;10000;0.000030000001192092897
+10000;Indexada;Inicio;Consulta preparada;7;10000;0.00004000000059604645
+10000;Indexada;Inicio;Consulta preparada;8;10000;0.000029999999701976778
+10000;Indexada;Inicio;Consulta preparada;9;10000;0.000029999999701976778
+10000;Indexada;Inicio;Consulta preparada;10;10000;0.00004000000059604645
+10000;Indexada;Inicio;Consulta preparada;11;10000;0.00004000000059604645
+10000;Indexada;Inicio;Consulta preparada;12;10000;0.000009999999403953553
+10000;Indexada;Inicio;Consulta preparada;13;10000;0.000009999999403953553
+10000;Indexada;Inicio;Consulta preparada;14;10000;0.000009999999403953553
+10000;Indexada;Inicio;Consulta preparada;15;10000;0.000010000000894069672
+10000;Indexada;Inicio;Consulta preparada;16;10000;0.000009999999403953553
+10000;Indexada;Inicio;Consulta preparada;17;10000;0.000010000000894069672
+10000;Indexada;Inicio;Consulta preparada;18;10000;0.000020000000298023225
+10000;Indexada;Inicio;Consulta preparada;19;10000;0.000019999998807907106
+10000;Indexada;Inicio;Consulta preparada;20;10000;0.000020000000298023225
+10000;Secuencial;Mitad;Consulta preparada;1;1000;0.024299999997019768
+10000;Secuencial;Mitad;Consulta preparada;2;1000;0.027700000002980233
+10000;Secuencial;Mitad;Consulta preparada;3;1000;0.02620000000298023
+10000;Secuencial;Mitad;Consulta preparada;4;1000;0.0245
+10000;Secuencial;Mitad;Consulta preparada;5;1000;0.024299999997019768
+10000;Secuencial;Mitad;Consulta preparada;6;1000;0.0255
+10000;Secuencial;Mitad;Consulta preparada;7;1000;0.02879999999701977
+10000;Secuencial;Mitad;Consulta preparada;8;1000;0.028200000002980233
+10000;Secuencial;Mitad;Consulta preparada;9;1000;0.02520000000298023
+10000;Secuencial;Mitad;Consulta preparada;10;1000;0.026600000008940698
+10000;Secuencial;Mitad;Consulta preparada;11;1000;0.02980000001192093
+10000;Secuencial;Mitad;Consulta preparada;12;1000;0.028700000002980234
+10000;Secuencial;Mitad;Consulta preparada;13;1000;0.02520000000298023
+10000;Secuencial;Mitad;Consulta preparada;14;1000;0.0265
+10000;Secuencial;Mitad;Consulta preparada;15;1000;0.0255
+10000;Secuencial;Mitad;Consulta preparada;16;1000;0.027200000002980233
+10000;Secuencial;Mitad;Consulta preparada;17;1000;0.025599999994039536
+10000;Secuencial;Mitad;Consulta preparada;18;1000;0.024900000005960463
+10000;Secuencial;Mitad;Consulta preparada;19;1000;0.030299999997019766
+10000;Secuencial;Mitad;Consulta preparada;20;1000;0.02579999999701977
+10000;Indexada;Mitad;Consulta preparada;1;10000;0.000020000000298023225
+10000;Indexada;Mitad;Consulta preparada;2;10000;0.000009999999403953553
+10000;Indexada;Mitad;Consulta preparada;3;10000;0.000019999998807907106
+10000;Indexada;Mitad;Consulta preparada;4;10000;0.000020000000298023225
+10000;Indexada;Mitad;Consulta preparada;5;10000;0.000020000000298023225
+10000;Indexada;Mitad;Consulta preparada;6;10000;0.000020000000298023225
+10000;Indexada;Mitad;Consulta preparada;7;10000;0.000020000000298023225
+10000;Indexada;Mitad;Consulta preparada;8;10000;0.000019999998807907106
+10000;Indexada;Mitad;Consulta preparada;9;10000;0.000020000000298023225
+10000;Indexada;Mitad;Consulta preparada;10;10000;0.000009999999403953553
+10000;Indexada;Mitad;Consulta preparada;11;10000;0.000029999999701976778
+10000;Indexada;Mitad;Consulta preparada;12;10000;0.000009999999403953553
+10000;Indexada;Mitad;Consulta preparada;13;10000;0.000020000000298023225
+10000;Indexada;Mitad;Consulta preparada;14;10000;0.000029999999701976778
+10000;Indexada;Mitad;Consulta preparada;15;10000;0.000020000000298023225
+10000;Indexada;Mitad;Consulta preparada;16;10000;0.000020000000298023225
+10000;Indexada;Mitad;Consulta preparada;17;10000;0.000030000001192092897
+10000;Indexada;Mitad;Consulta preparada;18;10000;0.000019999998807907106
+10000;Indexada;Mitad;Consulta preparada;19;10000;0.000020000000298023225
+10000;Indexada;Mitad;Consulta preparada;20;10000;0.000020000000298023225
+10000;Secuencial;Final;Consulta preparada;1;1000;0.05479999999701977
+10000;Secuencial;Final;Consulta preparada;2;1000;0.056200000002980234
+10000;Secuencial;Final;Consulta preparada;3;1000;0.0561000000089407
+10000;Secuencial;Final;Consulta preparada;4;1000;0.0555
+10000;Secuencial;Final;Consulta preparada;5;1000;0.05519999998807907
+10000;Secuencial;Final;Consulta preparada;6;1000;0.06009999999403953
+10000;Secuencial;Final;Consulta preparada;7;1000;0.05829999999701977
+10000;Secuencial;Final;Consulta preparada;8;1000;0.057700000002980235
+10000;Secuencial;Final;Consulta preparada;9;1000;0.06579999999701977
+10000;Secuencial;Final;Consulta preparada;10;1000;0.06419999998807907
+10000;Secuencial;Final;Consulta preparada;11;1000;0.0546000000089407
+10000;Secuencial;Final;Consulta preparada;12;1000;0.058
+10000;Secuencial;Final;Consulta preparada;13;1000;0.05970000000298023
+10000;Secuencial;Final;Consulta preparada;14;1000;0.05920000000298023
+10000;Secuencial;Final;Consulta preparada;15;1000;0.05479999999701977
+10000;Secuencial;Final;Consulta preparada;16;1000;0.05030000001192093
+10000;Secuencial;Final;Consulta preparada;17;1000;0.05479999999701977
+10000;Secuencial;Final;Consulta preparada;18;1000;0.053799999997019766
+10000;Secuencial;Final;Consulta preparada;19;1000;0.04840000000596047
+10000;Secuencial;Final;Consulta preparada;20;1000;0.04919999998807907
+10000;Indexada;Final;Consulta preparada;1;10000;0.000020000000298023225
+10000;Indexada;Final;Consulta preparada;2;10000;0.000009999999403953553
+10000;Indexada;Final;Consulta preparada;3;10000;0.000029999999701976778
+10000;Indexada;Final;Consulta preparada;4;10000;0.000020000000298023225
+10000;Indexada;Final;Consulta preparada;5;10000;0.000010000000894069672
+10000;Indexada;Final;Consulta preparada;6;10000;0.000010000000894069672
+10000;Indexada;Final;Consulta preparada;7;10000;0.000030000001192092897
+10000;Indexada;Final;Consulta preparada;8;10000;0.000019999998807907106
+10000;Indexada;Final;Consulta preparada;9;10000;0.000020000000298023225
+10000;Indexada;Final;Consulta preparada;10;10000;0.000010000000894069672
+10000;Indexada;Final;Consulta preparada;11;10000;0.000019999998807907106
+10000;Indexada;Final;Consulta preparada;12;10000;0.00003999999910593033
+10000;Indexada;Final;Consulta preparada;13;10000;0.000029999999701976778
+10000;Indexada;Final;Consulta preparada;14;10000;0.000020000000298023225
+10000;Indexada;Final;Consulta preparada;15;10000;0.000029999999701976778
+10000;Indexada;Final;Consulta preparada;16;10000;0.000029999999701976778
+10000;Indexada;Final;Consulta preparada;17;10000;0.000020000000298023225
+10000;Indexada;Final;Consulta preparada;18;10000;0.000029999999701976778
+10000;Indexada;Final;Consulta preparada;19;10000;0.000019999998807907106
+10000;Indexada;Final;Consulta preparada;20;10000;0.000030000001192092897
+10000;Secuencial;Inexistente;Consulta preparada;1;1000;0.051
+10000;Secuencial;Inexistente;Consulta preparada;2;1000;0.04509999999403953
+10000;Secuencial;Inexistente;Consulta preparada;3;1000;0.05240000000596046
+10000;Secuencial;Inexistente;Consulta preparada;4;1000;0.044299999997019765
+10000;Secuencial;Inexistente;Consulta preparada;5;1000;0.046400000005960465
+10000;Secuencial;Inexistente;Consulta preparada;6;1000;0.04319999998807907
+10000;Secuencial;Inexistente;Consulta preparada;7;1000;0.044100000008940696
+10000;Secuencial;Inexistente;Consulta preparada;8;1000;0.044
+10000;Secuencial;Inexistente;Consulta preparada;9;1000;0.04509999999403953
+10000;Secuencial;Inexistente;Consulta preparada;10;1000;0.04440000000596046
+10000;Secuencial;Inexistente;Consulta preparada;11;1000;0.0468999999910593
+10000;Secuencial;Inexistente;Consulta preparada;12;1000;0.046599999994039534
+10000;Secuencial;Inexistente;Consulta preparada;13;1000;0.046400000005960465
+10000;Secuencial;Inexistente;Consulta preparada;14;1000;0.045799999997019766
+10000;Secuencial;Inexistente;Consulta preparada;15;1000;0.0451000000089407
+10000;Secuencial;Inexistente;Consulta preparada;16;1000;0.04729999999701977
+10000;Secuencial;Inexistente;Consulta preparada;17;1000;0.04729999999701977
+10000;Secuencial;Inexistente;Consulta preparada;18;1000;0.04979999999701977
+10000;Secuencial;Inexistente;Consulta preparada;19;1000;0.04409999999403953
+10000;Secuencial;Inexistente;Consulta preparada;20;1000;0.04770000000298023
+10000;Indexada;Inexistente;Consulta preparada;1;10000;0.000029999999701976778
+10000;Indexada;Inexistente;Consulta preparada;2;10000;0.00004000000059604645
+10000;Indexada;Inexistente;Consulta preparada;3;10000;0.000029999999701976778
+10000;Indexada;Inexistente;Consulta preparada;4;10000;0.000029999999701976778
+10000;Indexada;Inexistente;Consulta preparada;5;10000;0.000029999999701976778
+10000;Indexada;Inexistente;Consulta preparada;6;10000;0.000030000001192092897
+10000;Indexada;Inexistente;Consulta preparada;7;10000;0.000029999999701976778
+10000;Indexada;Inexistente;Consulta preparada;8;10000;0.000020000000298023225
+10000;Indexada;Inexistente;Consulta preparada;9;10000;0.000029999999701976778
+10000;Indexada;Inexistente;Consulta preparada;10;10000;0.000020000000298023225
+10000;Indexada;Inexistente;Consulta preparada;11;10000;0.000020000000298023225
+10000;Indexada;Inexistente;Consulta preparada;12;10000;0.000020000000298023225
+10000;Indexada;Inexistente;Consulta preparada;13;10000;0.000029999999701976778
+10000;Indexada;Inexistente;Consulta preparada;14;10000;0.000020000000298023225
+10000;Indexada;Inexistente;Consulta preparada;15;10000;0.000009999999403953553
+10000;Indexada;Inexistente;Consulta preparada;16;10000;0.000020000000298023225
+10000;Indexada;Inexistente;Consulta preparada;17;10000;0.00005
+10000;Indexada;Inexistente;Consulta preparada;18;10000;0.000030000001192092897
+10000;Indexada;Inexistente;Consulta preparada;19;10000;0.000020000000298023225
+10000;Indexada;Inexistente;Consulta preparada;20;10000;0.000020000000298023225
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;1;1000;0.23829999999701976
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;2;1000;0.24059999999403953
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;3;1000;0.24340000000596046
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;4;1000;0.23720000000298022
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;5;1000;0.2388999999910593
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;6;1000;0.23909999999403952
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;7;1000;0.2385
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;8;1000;0.23340000000596045
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;9;1000;0.23990000000596046
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;10;1000;0.23190000000596048
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;11;1000;0.23539999999105932
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;12;1000;0.23270000000298025
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;13;1000;0.21120000000298023
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;14;1000;0.21529999999701976
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;15;1000;0.2308999999910593
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;16;1000;0.2233999999910593
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;17;1000;0.21779999999701977
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;18;1000;0.217
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;19;1000;0.2165
+10000;Secuencial;Código final y visibilidad;Servicio completo en memoria;20;1000;0.2231000000089407
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;1;1000;0.0005999999940395355
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;2;1000;0.0005
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;3;1000;0.0007000000029802323
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;4;1000;0.0005999999940395355
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;5;1000;0.0007000000029802323
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;6;1000;0.0005999999940395355
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;7;1000;0.001
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;8;1000;0.0012999999970197678
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;9;1000;0.0007000000029802323
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;10;1000;0.0007999999970197678
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;11;1000;0.0006000000089406968
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;12;1000;0.0007000000029802323
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;13;1000;0.0005999999940395355
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;14;1000;0.0005999999940395355
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;15;1000;0.0006000000089406968
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;16;1000;0.0006000000089406968
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;17;1000;0.0005999999940395355
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;18;1000;0.0005999999940395355
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;19;1000;0.0005999999940395355
+10000;Indexada;Código final y visibilidad;Servicio completo en memoria;20;1000;0.0005999999940395355
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;1;10;3.9199999988079073
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;2;10;3.9400000005960463
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;3;10;4.229999999701977
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;4;10;4.030000001192093
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;5;10;3.8
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;6;10;3.870000000298023
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;7;10;3.9
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;8;10;3.7299999997019766
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;9;10;3.779999999701977
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;10;10;3.5900000005960466
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;11;10;3.8
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;12;10;3.8
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;13;10;3.3200000002980232
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;14;10;3.83999999910593
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;15;10;3.7399999991059305
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;16;10;3.3899999991059304
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;17;10;3.6700000002980233
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;18;10;3.5900000005960466
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;19;10;3.7100000008940697
+10000;Secuencial;Texto, filtros, orden y página;Servicio completo en memoria;20;10;3.4799999997019766
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;1;10;3.5400000005960464
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;2;10;3.9799999997019766
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;3;10;3.8600000008940696
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;4;10;3.869999998807907
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;5;10;3.8200000002980232
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;6;10;4.229999999701977
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;7;10;3.519999998807907
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;8;10;3.45
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;9;10;3.6700000002980233
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;10;10;3.7599999994039535
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;11;10;3.5700000002980232
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;12;10;3.6899999991059302
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;13;10;3.6900000005960463
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;14;10;3.9200000002980233
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;15;10;3.6100000008940696
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;16;10;3.780000001192093
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;17;10;3.5700000002980232
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;18;10;3.5700000002980232
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;19;10;3.55
+10000;Indexada;Texto, filtros, orden y página;Servicio completo en memoria;20;10;3.3299999997019767
